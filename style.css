@@ -1,3 +1,76 @@
-p {
-    color: rebeccapurple;
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    margin: 10px;
+}
+
+.header-link {
+    margin-right: 30px;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.header-logo {
+    display: flex;
+    margin-right: auto;
+    font-weight: 900;
+    color: white;
+}
+
+.content-box-one {
+    display: flex;
+    background-color: #1F2937;
+    margin: auto 0;
+    flex-direction: column;
+    padding: 0px 60px;
+    height: 200px;
+    flex: auto;
+}
+
+.content-box-two {
+    display: flex;
+}
+
+.placeholder-image {
+    display: flex;
+}
+
+.placeholder-image img{
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+.header-logo-text{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-button {
+    width: 70px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 }
