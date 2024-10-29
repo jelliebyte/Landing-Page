@@ -5,6 +5,10 @@ body {
     background-color: white;
     font-family: 'Roboto';
 }
+/* 
+* {
+    outline: rebeccapurple solid;
+} */
 
 .header {
     background-color: #1F2937;
@@ -31,23 +35,26 @@ body {
     margin: auto 0;
     flex-direction: column;
     padding: 0px 60px;
+    padding-bottom: 50px;
     height: 200px;
-    flex: auto;
+    flex: 0;
 }
 
 .content-box-two {
     display: flex;
+    padding: 30px;
+    justify-content: center;
 }
 
 .placeholder-image {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #747477;
 }
 
-.placeholder-image img{
-    width: 20px;
-    height: auto;
-    display: inline-block;
-}
+
 
 .header-logo-text{
     color: #F9FAF8;
@@ -63,7 +70,17 @@ body {
 .signup {
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
+
+.signup-info {
+    margin: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
 
 .signup-button {
     width: 70px;
@@ -73,4 +90,5 @@ body {
     color: white;
     font-weight: 700;
     border-radius: 5px;
+    margin-top: 10px;
 }
